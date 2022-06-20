@@ -1,0 +1,29 @@
+h3{
+    font-size: 27px !important;
+}
+
+.btn-success:hover{
+    background-color: #747BE1;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0% {box-shadow: 1px 1px 38px #8E4996;}
+    14% {box-shadow: 1px 1px 38px #E00245;}
+    28% {box-shadow: 1px 1px 38px #A8D0BF(238, 234, 0);}
+    43% {box-shadow: 1px 1px 38px #20103D(0, 192, 0);}
+    57% {box-shadow: 1px 1px 38px #03D332(0, 81, 255);}
+    71% {box-shadow: 1px 1px 38px #837526(93, 1, 158);}
+    85% {box-shadow: 1px 1px 38px #A0C701;}
+    100% {box-shadow: 1px 1px 38px #4C2B68;}
+    100% {box-shadow: 1px 1px 38px #82D000;}
+    100% {box-shadow: 1px 1px 38px #0B9290;}
+    100% {box-shadow: 1px 1px 38px #8E4996;}
+
+
+}
